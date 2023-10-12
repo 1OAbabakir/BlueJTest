@@ -3,11 +3,9 @@ public abstract class Vogel implements VogelInterface{
     Vogel() {
         kannFliegen = true;
     }
-    
     Vogel(Boolean kf) {
         kannFliegen = kf;
-    }
-    
+    }    
     void singe() {
         System.out.println(melodie());
     }
